@@ -76,3 +76,18 @@ for(let i=0; i<3; i++) {
 console.log(multi);
 
 //배열 메서드 정리
+
+// concat
+// console.log : a,b,c,d,e,f,g,h,i,j,k,l
+let concats = ['a','b','c','d','e','f']
+let rest = ['h','i','j','k','l']
+console.log(concats.concat('g', rest));
+
+// 반복자 함수
+// every : 조건값에 대하여 false가 나오지 않는한 원소 리턴 반복
+
+let everys = number.every((x) => {
+  return x % 2 === 0
+})
+
+console.log(everys);
